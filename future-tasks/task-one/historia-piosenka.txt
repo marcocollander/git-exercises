@@ -1,0 +1,198 @@
+commit 08b3b85c5c1016c7098cfa0df2018909a787443c
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 17:52:59 2023 +0100
+
+    Added file refren.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 883e318..f6e0982 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,10 +2,10 @@ zwrotka-1.txt
+ 
+ zwrotka-2.xt
+ 
+-refren-1.txt
++refren.txt
+ 
+ zwrotka-3.txt 
+ 
+-refren-2.txt 
++refren.txt 
+ 
+ zwrotka-4.txt
+
+commit e17d899a80a895b5c86e7a65aa8dc9d0427dd6e9
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:27:13 2023 +0100
+
+    Created file zwrotka-4.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2d060da..883e318 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,7 +8,4 @@ zwrotka-3.txt
+ 
+ refren-2.txt 
+ 
+-Yesterday 
+-Love was such an easy game to play 
+-Now I need a place to hide away 
+-Oh, I believe in yesterday 
++zwrotka-4.txt
+
+commit cc01f0ea54ee906f9758b951bb3adf497893656a
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:26:11 2023 +0100
+
+    Created file refren-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 5ff6a10..2d060da 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,10 +6,7 @@ refren-1.txt
+ 
+ zwrotka-3.txt 
+ 
+-Why she had to go? 
+-I don't know, she wouldn't say 
+-I said something wrong? 
+-Now I long for yesterday 
++refren-2.txt 
+ 
+ Yesterday 
+ Love was such an easy game to play 
+
+commit 0bc08d83d9649a34ccb2ab003a72667eec7508d0
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:25:24 2023 +0100
+
+    Created file zwrotka-3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d7dad4c..5ff6a10 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,10 +4,7 @@ zwrotka-2.xt
+ 
+ refren-1.txt
+ 
+-Yesterday 
+-Love was such an easy game to play 
+-Now I need a place to hide away Oh, 
+-I believe in yesterday 
++zwrotka-3.txt 
+ 
+ Why she had to go? 
+ I don't know, she wouldn't say 
+
+commit 3f5a0d8e4528b864204e5c9397c83452dc501768
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:24:35 2023 +0100
+
+    Created file refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 9411e05..d7dad4c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,10 +2,7 @@ zwrotka-1.txt
+ 
+ zwrotka-2.xt
+ 
+-Why she had to go? 
+-I don't know, she wouldn't say 
+-I said something wrong? 
+-Now I long for yesterday 
++refren-1.txt
+ 
+ Yesterday 
+ Love was such an easy game to play 
+
+commit 95a82773e9e2ad8877e5143869cd26fc1064eb67
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:20:07 2023 +0100
+
+    Created file zwrotka-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 793eaba..9411e05 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,6 @@
+ zwrotka-1.txt
+ 
+-Suddenly 
+-I'm not half the man 
+-I used to be 
+-There's a shadow hanging over me 
+-Oh, yesterday came suddenly 
++zwrotka-2.xt
+ 
+ Why she had to go? 
+ I don't know, she wouldn't say 
+
+commit d3492361e81a849fb1ad7e5d61472180fb1a7ad6
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:19:08 2023 +0100
+
+    Created file zwrotka-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 946b137..793eaba 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,4 @@
+-Yesterday 
+-All my troubles seemed so far away 
+-Now it looks as though they're here to stay 
+-Oh, I believe in yesterday 
++zwrotka-1.txt
+ 
+ Suddenly 
+ I'm not half the man 
+
+commit 62aa953db02563f9a6469dcd40dd9787ec11e3d0
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:15:51 2023 +0100
+
+    Added file piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..946b137
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,30 @@
++Yesterday 
++All my troubles seemed so far away 
++Now it looks as though they're here to stay 
++Oh, I believe in yesterday 
++
++Suddenly 
++I'm not half the man 
++I used to be 
++There's a shadow hanging over me 
++Oh, yesterday came suddenly 
++
++Why she had to go? 
++I don't know, she wouldn't say 
++I said something wrong? 
++Now I long for yesterday 
++
++Yesterday 
++Love was such an easy game to play 
++Now I need a place to hide away Oh, 
++I believe in yesterday 
++
++Why she had to go? 
++I don't know, she wouldn't say 
++I said something wrong? 
++Now I long for yesterday 
++
++Yesterday 
++Love was such an easy game to play 
++Now I need a place to hide away 
++Oh, I believe in yesterday 

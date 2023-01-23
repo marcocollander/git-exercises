@@ -1,0 +1,61 @@
+commit 08b3b85c5c1016c7098cfa0df2018909a787443c
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 17:52:59 2023 +0100
+
+    Added file refren.txt
+
+commit b39be1e5300f0b01d57687e3724bfde1c2f21a67
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 17:42:30 2023 +0100
+
+    Revert "Deleted line from refren"
+    
+    This reverts commit e0c8b3d05a34255febd9e36662415831e968b7d8.
+
+commit e0c8b3d05a34255febd9e36662415831e968b7d8
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:46:13 2023 +0100
+
+    Deleted line from refren
+
+commit e17d899a80a895b5c86e7a65aa8dc9d0427dd6e9
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:27:13 2023 +0100
+
+    Created file zwrotka-4.txt
+
+commit cc01f0ea54ee906f9758b951bb3adf497893656a
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:26:11 2023 +0100
+
+    Created file refren-2.txt
+
+commit 0bc08d83d9649a34ccb2ab003a72667eec7508d0
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:25:24 2023 +0100
+
+    Created file zwrotka-3.txt
+
+commit 3f5a0d8e4528b864204e5c9397c83452dc501768
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:24:35 2023 +0100
+
+    Created file refren-1.txt
+
+commit 95a82773e9e2ad8877e5143869cd26fc1064eb67
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:20:07 2023 +0100
+
+    Created file zwrotka-2.txt
+
+commit d3492361e81a849fb1ad7e5d61472180fb1a7ad6
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:19:08 2023 +0100
+
+    Created file zwrotka-1.txt
+
+commit 62aa953db02563f9a6469dcd40dd9787ec11e3d0
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:15:51 2023 +0100
+
+    Added file piosenka.txt

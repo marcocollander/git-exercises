@@ -1,0 +1,17 @@
+commit d3492361e81a849fb1ad7e5d61472180fb1a7ad6
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:19:08 2023 +0100
+
+    Created file zwrotka-1.txt
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..0f4c5a7
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,4 @@
++Yesterday 
++All my troubles seemed so far away 
++Now it looks as though they're here to stay 
++Oh, I believe in yesterday 
+\ No newline at end of file

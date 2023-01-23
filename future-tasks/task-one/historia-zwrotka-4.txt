@@ -1,0 +1,17 @@
+commit e17d899a80a895b5c86e7a65aa8dc9d0427dd6e9
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:27:13 2023 +0100
+
+    Created file zwrotka-4.txt
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..a5d978a
+--- /dev/null
++++ b/zwrotka-4.txt
+@@ -0,0 +1,4 @@
++Yesterday 
++Love was such an easy game to play 
++Now I need a place to hide away 
++Oh, I believe in yesterday 
+\ No newline at end of file

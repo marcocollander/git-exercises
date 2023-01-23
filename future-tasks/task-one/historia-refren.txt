@@ -1,0 +1,17 @@
+commit 08b3b85c5c1016c7098cfa0df2018909a787443c
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 17:52:59 2023 +0100
+
+    Added file refren.txt
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..ff68cfe
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,4 @@
++Why she had to go? 
++I don't know, she wouldn't say 
++I said something wrong? 
++Now I long for yesterday
+\ No newline at end of file

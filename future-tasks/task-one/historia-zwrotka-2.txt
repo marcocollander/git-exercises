@@ -1,0 +1,18 @@
+commit 95a82773e9e2ad8877e5143869cd26fc1064eb67
+Author: Zenon Marek Raubuć <m.raubuc@wp.pl>
+Date:   Mon Jan 23 14:20:07 2023 +0100
+
+    Created file zwrotka-2.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..1106223
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,5 @@
++Suddenly 
++I'm not half the man 
++I used to be 
++There's a shadow hanging over me 
++Oh, yesterday came suddenly 
+\ No newline at end of file
