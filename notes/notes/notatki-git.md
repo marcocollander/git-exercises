@@ -9,8 +9,8 @@ Gdy zmienimy nazwę pliku, git będzie twierdził, że usunęliśmy jeden plik,a
 tak jak twierdzi git, musimy użyć komendy:
 
 ```bash
-git mv pierwszy.txt lorem-ipsum.txt<Enter>
-git status<Enter>
+git mv pierwszy.txt lorem-ipsum.txt
+git status
 On branch master
 Changes to be committed:
  (use "git reset HEAD <file>..." to unstage)
@@ -60,10 +60,24 @@ git checkout <nazwa pliku>
 Powyższe polecenie `checkout` przywraca stan pliku, który jest zapisany w repozytorium ostatnim commitem.
 
 ```bash
+  git reset HEAD
+```
+
+Usuwa wszystkie pliki dodane do stagingu
+
+```bash
 git reset HEAD <nazwa pliku>
 ```
 
-To polecenie usuwa z
+To polecenie usuwa plik z stagingu. Jeśli dodajemy katalog do indexu (stagnigu) to możemy cofnąć do pliku nieśledzonego powyższą komendą. 
+
+Jeśli usuniemy plik, który jest dodany do indexu to możemy go przywrócić przywrócić komendą:
+
+```bash
+git checkout <nazwa.pliku>
+```
+
+
 
 # II. Repozytoria zrozgałęzieniami
 
@@ -225,7 +239,6 @@ ostatniej rewizji w tej gałęzi.
 > W początkowym okresie nauki komendę przełączania gałęzi najlepiej wydawać wyłącznie wtedy, gdy wszystkie pliki są
 > aktualne (tj. gdy polecenie `git status –s` zwraca pusty wynik).
 
-
 Po wydaniu komendy:
 
 ```bash
@@ -308,7 +321,7 @@ Jeśli pliki z obszaru roboczego przywrócimy do stanu z konkretnej rewizji, pos
 git checkout SHA-1
 ```
 
-wówczas repozytorium będzie znajdowało się w stanie określanym w dokumentacji terminem *detached HEAD*. W tym momencie
+wówczas repozytorium będzie znajdowało się w stanie określanym w dokumentacji terminem _detached HEAD_. W tym momencie
 żadna gałąź nie jest gałęzią bieżącą. W pliku `.git/HEAD` zapisany jest skrót `SHA-1` konkretnej rewizji, a nie nazwa
 symboliczna gałęzi `(np. ref: refs/heads/master).`
 
@@ -349,4 +362,3 @@ je utracić.
 Co się stanie, jeśli wykonamy nową rewizję? W repozytorium pojawi się rewizja, do której nie można dotrzeć, stosując
 gałąź. Rewizja ta zostanie dodana jako dziecko rewizji wskazanej przez `HEAD`. Jeśli w repozytorium z rysunku 13.13
 wykonamy nową rewizję D, postać repozytorium będzie taka jak na rysunku 13.14.
-
