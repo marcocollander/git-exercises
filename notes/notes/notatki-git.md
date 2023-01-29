@@ -1,4 +1,6 @@
-# GIT commit — dodawanie katalogów, modyfikacja, zmiana nazwy, usuwanie plików
+# Podstawy git
+
+## GIT commit — dodawanie katalogów, modyfikacja, zmiana nazwy, usuwanie plików
 
 Git porównuje wasze zmiany linia po linii w plikach tekstowych, tzn. jest w stanie wykryć zmiany (dodanie, usuwanie
 całych linii).
@@ -46,7 +48,7 @@ Jak widać, git dodał 2 pliki wewnątrz katalogu — co ważne, nie dodał bezp
 dlatego, że GIT nie śledzi samych podkatalogów, jedynie wnioskuje ich obecność na podstawie ścieżek plików. Dlatego nie
 może do repozytorium dodać pustego katalogu!
 
-# GIT — Przywracanie plików, usuwanie z listy do dodania (staging)
+## GIT — Przywracanie plików, usuwanie z listy do dodania (staging)
 
 Co zrobić w momencie, gdy popełniliśmy błąd? Np. usunęliśmy przypadkowo plik, który był bardzo potrzebny, albo
 dokonaliśmy w pliku zmian, które chcemy cofnąć. Rozwiązanie zależy od momentu, do którego chcemy się cofnąć.
@@ -69,7 +71,7 @@ Usuwa wszystkie pliki dodane do stagingu
 git reset HEAD <nazwa pliku>
 ```
 
-To polecenie usuwa plik z stagingu. Jeśli dodajemy katalog do indexu (stagnigu) to możemy cofnąć do pliku nieśledzonego powyższą komendą. 
+To polecenie usuwa plik z stagingu. Jeśli dodajemy katalog do indexu (stagnigu) to możemy cofnąć do pliku nieśledzonego powyższą komendą.
 
 Jeśli usuniemy plik, który jest dodany do indexu to możemy go przywrócić przywrócić komendą:
 
@@ -77,9 +79,36 @@ Jeśli usuniemy plik, który jest dodany do indexu to możemy go przywrócić pr
 git checkout <nazwa.pliku>
 ```
 
+Jeśli usuniemy plik z repozytorium to możemy go przywrócić w dwóćh krokach:
 
+```bash
+git reset HEAD <nazwa pliku>
+git checkout <nazwa pliku>
+```
+
+## GIT swobodna zmiana wersji, cofanie w czasie projektu, cofanie niektórych commitów
+
+Chcemy wycofać jakąś starą zmianę, jednocześnie zachowując wszystkie przyszłe:
+
+```bash
+  git revert <commit hash/ commit ID>
+```
+
+Możemy sprawdzić historię zmian w konkretnym pliku. poleceniem
+
+```bash
+  git log -p <nazwa pliku>
+```
+
+Co, jeśli chcemy po prostu cofnąć się w czasie do konkretnego commitu?
+
+```bash
+  git checkout <commit ID/ Hash>
+```
 
 # II. Repozytoria zrozgałęzieniami
+
+
 
 ## Tworzenie i usuwanie gałęzi
 
